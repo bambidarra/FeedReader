@@ -1,0 +1,9 @@
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\bin\Debug\FeedClient.exe
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\bin\Debug\FeedClient.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\FeedClient.Form1.resources
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\FeedClient.Properties.Resources.resources
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\FeedClient.exe
+C:\Users\Bambi\Desktop\FeedReader\FeedClient\obj\x86\Debug\FeedClient.pdb

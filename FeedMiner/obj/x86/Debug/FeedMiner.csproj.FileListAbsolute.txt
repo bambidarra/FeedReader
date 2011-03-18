@@ -21,3 +21,14 @@ C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.xml
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.exe
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe.config
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\FeedMiner.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\FeedReader.dll
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\MySql.Data.dll
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\FeedReader.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\SharpBag.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\bin\Debug\SharpBag.xml
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.exe
+C:\Users\Bambi\Desktop\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.pdb

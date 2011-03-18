@@ -25,7 +25,7 @@ namespace FeedReader.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=API\\SQLEXPRESS;Database=FeedReader;Trusted_Connection=True;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=Bambi-PC\\BambiSQL;Database=FeedReader;Trusted_Connection=True;")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));

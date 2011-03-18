@@ -14,3 +14,11 @@ C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\GenerateRes
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\GenerateResource.write.1.tlog
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.dll
 C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\bin\FeedReader.dll
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\bin\FeedReader.pdb
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\FeedReader.Properties.Resources.resources
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\FeedReader.dll
+C:\Users\Bambi\Desktop\FeedReader\FeedReader\obj\Debug\FeedReader.pdb
