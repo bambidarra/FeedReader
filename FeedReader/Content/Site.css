@@ -1,0 +1,130 @@
+body
+{
+    background: #EBEBEB;
+}
+
+.pageNav
+{
+    list-style: none;
+}
+
+.pageNav li
+{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.topBorder
+{
+    height: 22px;
+    background: #141414;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.leftLight
+{
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 535px;
+    height: 564px;
+    background: url("imgs/leftLight.png") no-repeat;
+}
+
+.rightLight
+{
+    z-index: -1;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 555px;
+    height: 589px;
+    background: url("imgs/rightLight.png") no-repeat;
+}
+
+.logo
+{
+    width: 329px;
+    height: 58px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -165px;
+    text-indent: -9999px;
+    background: url("imgs/logo.png") no-repeat;
+}
+
+.contentWrapper
+{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    width: 402px;
+    margin-left: -201px;
+}
+
+.contentUpper
+{
+    height: 21px;
+    background: url("imgs/formUpperBorder.png") no-repeat;
+}
+
+.contentBottom
+{
+    height: 22px;
+    background: url("imgs/formLowerBorder.png") no-repeat;
+}
+
+.content
+{
+    min-height: 50px;
+    background: url("imgs/formBackground.png") repeat-y;
+    padding: 0 30px 0 30px;
+    font-size: 25px;
+    color: #141414;
+}
+
+.content input[type="text"],
+.content input[type="password"]
+{
+    background: url("imgs/inputBackground.png") no-repeat;
+    width: 320px;
+    height: 43px;
+    border: none;
+    padding-left: 10px;
+    font-size: 25px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.content input[type="text"]:focus,
+.content input[type="password"]:focus,
+.content input[type="submit"]:focus
+{
+    outline: 0;
+}
+
+.content input[type="submit"]
+{
+    background: url("imgs/buttonBackground.png") no-repeat;
+    width: 117px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 223px;
+}
+
+.content input[type="submit"]:hover
+{
+    background: url("imgs/buttonBackgroundHover.png") no-repeat;
+    cursor: pointer;
+}

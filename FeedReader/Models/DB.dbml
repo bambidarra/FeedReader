@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FeedReader" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=API\SQLEXPRESS;Initial Catalog=FeedReader;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FeedReaderConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Feed" Member="Feeds">
+    <Type Name="Feed">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(2048)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="LastChecked" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Feed_FeedItem" Member="FeedItems" ThisKey="ID" OtherKey="FeedID" Type="FeedItem" />
+      <Association Name="Feed_UserFeed" Member="UserFeeds" ThisKey="ID" OtherKey="FeedID" Type="UserFeed" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserFeedItem" Member="UserFeedItems">
+    <Type Name="UserFeedItem">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FeedItemID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Read]" Member="Read" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FeedItem_UserFeedItem" Member="FeedItem" ThisKey="FeedItemID" OtherKey="ID" Type="FeedItem" IsForeignKey="true" />
+      <Association Name="User_UserFeedItem" Member="User" ThisKey="UserID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FeedItem" Member="FeedItems">
+    <Type Name="FeedItem">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FeedID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FeedItem_UserFeedItem" Member="UserFeedItems" ThisKey="ID" OtherKey="FeedItemID" Type="UserFeedItem" />
+      <Association Name="Feed_FeedItem" Member="Feed" ThisKey="FeedID" OtherKey="ID" Type="Feed" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(130) NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordHash" Type="System.String" DbType="Char(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Registered" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="User_UserFeedItem" Member="UserFeedItems" ThisKey="ID" OtherKey="UserID" Type="UserFeedItem" />
+      <Association Name="User_UserFeed" Member="UserFeeds" ThisKey="ID" OtherKey="UserID" Type="UserFeed" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserFeed" Member="UserFeeds">
+    <Type Name="UserFeed">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FeedID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Feed_UserFeed" Member="Feed" ThisKey="FeedID" OtherKey="ID" Type="Feed" IsForeignKey="true" />
+      <Association Name="User_UserFeed" Member="User" ThisKey="UserID" OtherKey="ID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

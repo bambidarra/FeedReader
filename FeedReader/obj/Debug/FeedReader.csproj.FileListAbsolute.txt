@@ -1,0 +1,16 @@
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\ResolveAssemblyReference.cache
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\bin\FeedReader.dll
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\bin\FeedReader.pdb
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.dll
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.pdb
+C:\Users\SuprDewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.Properties.Resources.resources
+C:\Users\SuprDewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SuprDewd\documents\visual studio 2010\Projects\FeedReader\FeedReader\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\bin\FeedReader.dll
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\bin\FeedReader.pdb
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.Properties.Resources.resources
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.dll
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedReader\obj\Debug\FeedReader.pdb

@@ -1,0 +1,23 @@
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe.config
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.pdb
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\FeedReader.dll
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.dll
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\MySql.Data.dll
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\FeedReader.pdb
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.pdb
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.xml
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.exe
+c:\users\suprdewd\documents\visual studio 2010\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.pdb
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe.config
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.exe
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\FeedMiner.pdb
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\FeedReader.dll
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\MySql.Data.dll
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\FeedReader.pdb
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.pdb
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\bin\Debug\SharpBag.xml
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.exe
+C:\Users\SuprDewd\Documents\Projects\FeedReader\FeedMiner\obj\x86\Debug\FeedMiner.pdb

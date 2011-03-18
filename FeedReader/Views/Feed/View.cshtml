@@ -1,0 +1,29 @@
+﻿@model FeedReader.ViewModels.ViewFeedsViewModel
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+@foreach (var feedItem in this.Model.FeedItems)
+{
+    <div>
+        <h4>@Html.ActionLink(feedItem.Title, "Open/" + feedItem.ID, "Feed")</h4>
+        <p>@feedItem.Description - @Html.ActionLink("Read More", "Open/" + feedItem.ID, "Feed")</p>
+    </div>
+}
+
+<ul class="pageNav">
+    @for (int i = 1; i <= this.Model.Pages; i++)
+    {
+        if (i == this.Model.CurrentPage)
+        {
+            <li>@i</li>
+        }
+        else
+        {
+            <li>@Html.ActionLink(i.ToString(), "View/" + i, "Feed")</li>  
+        }
+    }
+</ul>

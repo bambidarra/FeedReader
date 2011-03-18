@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/FormLayout.cshtml";
+}
+
+@{this.Html.BeginForm("LoginSubmit", "User", FormMethod.Post);}
+    @this.Html.Label("email")<br />
+    @this.Html.TextBox("email")<br />
+    @this.Html.Label("password")<br />
+    @this.Html.TextBox("password", "", new { type = "password" })<br />
+    <input type="submit" value="login" />
+@{this.Html.EndForm();}

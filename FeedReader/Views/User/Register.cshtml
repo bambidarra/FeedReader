@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+@{this.Html.BeginForm("RegisterSubmit", "User", FormMethod.Post);}
+    @this.Html.Label("Email")<br />
+    @this.Html.TextBox("email")<br />
+    @this.Html.Label("Password")<br />
+    @this.Html.TextBox("password", "", new { type = "password" })<br />
+    @this.Html.Label("Password Again")<br />
+    @this.Html.TextBox("passwordAgain", "", new { type = "password" })<br />
+    <input type="submit" value="Login" />
+@{this.Html.EndForm();}
